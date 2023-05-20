@@ -22,10 +22,10 @@
             ?></div>
     </form> -->
 
-    <form action="request-script.php" method="POST">
+    <form action="request-script.php" method="GET">
         <input type="text" name="firstname" placeholder="First Name" />
         <input type="text" name="lastname" placeholder="Last Name" />
-        <button type="submit" name="submit" />Submit Query</button>
+        <button type="submit" name="submit">Submit Query</button>
 
 
     </form>
